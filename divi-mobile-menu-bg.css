@@ -1,0 +1,15 @@
+<!-- Imagén de fondo para menu movil de Divi -->
+
+.mobile_nav.closed #mobile_menu,
+.mobile_nav.opened #mobile_menu {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background: linear-gradient(
+      rgba(66, 66, 66, 0.50),
+      rgba(66, 66, 66, 0.90)
+),url("https://dominio.com/wp-content/uploads/2018/10/mobile-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
